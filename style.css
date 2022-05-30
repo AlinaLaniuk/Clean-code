@@ -3,7 +3,7 @@ ul {
   padding: 0;
 }
 li {
-  list-style:none;
+  list-style: none;
 }
 .body {
   background-color: #f8f8f8;
@@ -110,20 +110,20 @@ li {
   color: #888;
 }
 .main-section__input_status {
-  display:none
+  display: none
 }
 
 .main-section__input_edit-mode {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .main-section__input-label_edit-mode {
-  display:none;
+  display: none;
 }
 @media (max-width:768px) {
 
   .matrix-description { text-align: center;
   }
-  
+
   }
