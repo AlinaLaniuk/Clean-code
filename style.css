@@ -97,35 +97,28 @@ li {
   display: inline-block;
   flex-grow: 1
 }
-li >    input[type="text"] {
-  width: 226px
-}
-button.delete img {
+.main-section__button__delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.main-section__button__delete:hover {
   transform: rotateZ(0);
 }
-
-/* Completed */
-ul#completed-tasks label {
+.main-section__input-label_complete-task {
   text-decoration: line-through
   color: #888;
 }
-
-/* Edit Task */
-ul li input[type=text] {
+.main-section__input_status {
   display:none
 }
 
-ul li.editMode input[type=text] {
+.main-section__input_edit-mode {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+.main-section__input-label_edit-mode {
   display:none;
 }
 @media (max-width:768px) {

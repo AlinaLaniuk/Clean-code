@@ -10,8 +10,8 @@
 
 var taskInput=document.querySelector("main-section__input_add-item");//Add a new task.
 var addButton=document.querySelector("button_add-item");//first button
-var incompleteTaskHolder=document.querySelector("incomlpete-task");//ul of #incompleteTasks
-var completedTasksHolder=document.querySelector("completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.querySelector("main-section__list_completed-tasks");//ul of #incompleteTasks
+var completedTasksHolder=document.querySelector("main-section__list_incomlpete-task");//completed-tasks
 
 
 //New task list item
@@ -85,7 +85,7 @@ var editTask=function(){
     var editInput=listItem.querySelector('main-section__input');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("editMode");
+    var containsClass=listItem.classList.contains("main-section__list-item_edit-mode");
     //If class of the parent is .editmode
     if(containsClass){
 

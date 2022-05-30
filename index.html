@@ -23,32 +23,32 @@
       </section>
       <section class="main-section">
         <h3 class="main-section__header">Todo</h3>
-        <ul class="main-section__list incomlpete-task">
+        <ul class="main-section__list main-section__list_incomlpete-task">
           <li class="main-section__list-item">
             <input class="main-section__checkbox" type="checkbox">
             <label class="main-section__input-label">Pay Bills</label>
-            <input class="main-section__input" type="text">
-            <button class="main-section__button edit">Edit</button>
-            <button class="main-section__button delete"><img src="./remove.svg" alt="delete-button"></button>
+            <input class="main-section__input main-section__input_status" type="text">
+            <button class="main-section__button main-section__button_edit">Edit</button>
+            <button class="main-section__button"><img class="main-section__button__delete" src="./remove.svg" alt="delete-button"></button>
           </li>
-          <li class="editMode">
-            <input type="checkbox">
-            <label class="task">Go Shopping</label>
-            <input class="main-section__input" type="text" value="Go Shopping">
-            <button class="main-section__button edit">Save</button>
-            <button class="main-section__button delete"><img src="./remove.svg" alt="delete-button"></button>
+          <li class="main-section__list-item main-section__list-item_edit-mode">
+            <input class="main-section__checkbox" type="checkbox">
+            <label class="main-section__input-label main-section__input-label_edit-mode">Go Shopping</label>
+            <input class="main-section__input main-section__input_edit-mode" type="text" value="Go Shopping">
+            <button class="main-section__button main-section__button_edit">Save</button>
+            <button class="main-section__button"><img class="main-section__button__delete" src="./remove.svg" alt="delete-button"></button>
           </li>
         </ul>
       </section>
       <section class="main-section">
-      <h3 class="main__header">Completed</h3>
-        <ul class="main-section__list completed-tasks">
-          <li>
+      <h3 class=main-section__header">Completed</h3>
+        <ul class="main-section__list main-section__list_completed-tasks">
+          <li class="main-section__list-item">
             <input class="main-section__checkbox" type="checkbox" checked>
-            <label class="main-section__input-label">See the Doctor</label>
-            <input class="main-section__text-input" type="text">
-            <button class="main-section__button edit">Edit</button>
-            <button class="main-section__button delete"><img src="./remove.svg" alt="delete-button"></button>
+            <label class="main-section__input-label main-section__input-label_complete-task">See the Doctor</label>
+            <input class="main-section__input" type="text">
+            <button class="main-section__button main-section__button_edit">Edit</button>
+            <button class="main-section__button delete"><img class="main-section__button__delete" src="./remove.svg" alt="delete-button"></button>
           </li>
         </ul>
       </section>
