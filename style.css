@@ -105,7 +105,7 @@ li {
 .main-section__button__delete:hover {
   transform: rotateZ(0);
 }
-.main-section__input-label_complete-task {
+.main-section__list_completed-tasks .main-section__input-label{
   text-decoration: line-through;
   color: #888;
 }
