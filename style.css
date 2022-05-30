@@ -56,7 +56,7 @@ li {
   color: #888;
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main-section__input:focus {
   color: #333;
@@ -95,7 +95,7 @@ li {
   font-size: 18px;
   width: 226px;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main-section__button__delete {
   height: 2em;
@@ -106,16 +106,16 @@ li {
   transform: rotateZ(0);
 }
 .main-section__input-label_complete-task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 .main-section__input_status {
-  display: none
+  display: none;
 }
 
 .main-section__input_edit-mode {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .main-section__input-label_edit-mode {
