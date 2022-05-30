@@ -122,6 +122,8 @@ li {
   display:none;
 }
 @media (max-width:768px) {
+
   .matrix-description { text-align: center;
   }
+  
   }
